@@ -1,0 +1,177 @@
+>>> a="hello"
+>>> print(a)
+hello
+>>> type(a)
+<class 'str'>
+>>> a[-1]
+'o'
+>>> a[1:3]
+'el'
+>>> a[0:6]
+'hello'
+>>> print("ram's")
+ram's
+>>> s=input("enter value")
+enter valuebesant
+>>>
+>>> print(s)
+besant
+>>> type(s)
+<class 'str'>
+>>> 'Britan'=='britan'
+False
+>>> 'Britan'<'britan'
+True
+>>> 'abc'+'efg'
+'abcefg'
+>>> x="abc"
+>>> y="efg"
+>>> z=x y
+  File "<stdin>", line 1
+    z=x y
+        ^
+SyntaxError: invalid syntax
+>>> z=x,y
+>>> print(z)
+('abc', 'efg')
+>>> 'abc'*3
+'abcabcabc'
+>>> 'hello'+15
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> a[1]
+'e'
+>>> print(a)
+hello
+>>> a[1:3]
+'el'
+>>>  h=input("enter a value :)
+  File "<stdin>", line 1
+    h=input("enter a value :)
+IndentationError: unexpected indent
+>>>  h=input("enter a value :")
+  File "<stdin>", line 1
+    h=input("enter a value :")
+IndentationError: unexpected indent
+>>> h=input("enter a value :")
+enter a value :bangalore
+>>> print(h)
+bangalore
+>>> print(h)
+bangalore
+>>> t="john"
+>>> u="wick"
+>>> i=t+u
+>>> print(i)
+johnwick
+>>> "bangalore"+15
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> "bangalore"+'15'
+'bangalore15'
+>>> type(15)
+<class 'int'>
+>>> type('15')
+<class 'str'>
+>>> s="hello"
+>>> print(len(s))
+5
+>>> q="hello world"
+>>> s[0:5]
+'hello'
+>>> s[0:5:1]
+'hello'
+>>> s[0:5:2]
+'hlo'
+>>> s='helloworld'
+>>> s[0:6]
+'hellow'
+>>> s[0:6:2]
+'hlo'
+>>> s[0:7:2]
+'hloo'
+>>> s[5:10]
+'world'
+>>> s[5:10:2]
+'wrd'
+>>> s[6::]
+'orld'
+>>> s[5::]
+'world'
+>>> s[::-1]
+'dlrowolleh'
+>>> s[3::]
+'loworld'
+>>> z="bangalore"
+>>> a in z
+False
+>>> 'a' in z
+True
+>>> 't' not in z
+True
+>>> s="how are you"
+>>> s.find("how")
+0
+>>> s.index(0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> s.find('o')
+1
+>>> s="how are you"
+>>> s.find('o')
+1
+>>> print(len(s))
+11
+>>> s.find('h')
+0
+>>> s.find('k')
+-1
+>>> s.count('o')
+2
+>>> s.count('h')
+1
+>>> r="nandish##chitradurga"
+>>> r.strip('#')
+'nandish##chitradurga'
+>>> r.strip(#)
+... print(r)
+...
+... r.strip(#)
+  File "<stdin>", line 2
+    print(r)
+    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print(r)
+nandish##chitradurga
+>>> r.strip("#")
+'nandish##chitradurga'
+>>> print(s)
+how are you
+>>> s.strip()
+'how are you'
+>>> s.strip(' ')
+'how are you'
+>>> q='++python'
+>>> q.strip('+')
+'python'
+>>> s.swapcase()
+'HOW ARE YOU'
+>>> s.upper()
+'HOW ARE YOU'
+>>> s.lower()
+'how are you'
+>>> "abc123" is alnum()
+<stdin>:1: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'alnum' is not defined
+>>> "abc123".is alnum()
+  File "<stdin>", line 1
+    "abc123".is alnum()
+             ^^
+SyntaxError: invalid syntax
+>>> "abc123".isalnum()
+True
